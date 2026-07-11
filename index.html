@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#37302a" />
+<title>Luthufi Abdul Latheef &amp; Lujeen Abdul Jabbar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amiri:wght@400;700&family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lock-scroll">
+
+<svg style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+  <symbol id="sprig" viewBox="0 0 100 100">
+    <path d="M8 92 C 20 62, 14 34, 46 8" stroke="currentColor" stroke-width="1.6" fill="none"/>
+    <ellipse cx="30" cy="58" rx="7.5" ry="3.6" fill="currentColor" opacity="0.75" transform="rotate(-32 30 58)"/>
+    <ellipse cx="21" cy="74" rx="6.4" ry="3.1" fill="currentColor" opacity="0.6" transform="rotate(-44 21 74)"/>
+    <ellipse cx="39" cy="30" rx="6.4" ry="3.1" fill="currentColor" opacity="0.6" transform="rotate(-18 39 30)"/>
+    <ellipse cx="14" cy="86" rx="5" ry="2.5" fill="currentColor" opacity="0.5" transform="rotate(-50 14 86)"/>
+  </symbol>
+</svg>
+
+<!-- ENVELOPE OVERLAY -->
+<div class="envelope-overlay" id="envelopeOverlay">
+  <img class="floral-frame-img" src="assets/floral-frame.webp" alt="" />
+  <div class="pre-open-top">
+    <p class="po-bismillah-ar" dir="rtl" lang="ar">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+    <p class="po-family-line">Together with our family</p>
+    <p class="po-request-line">With the blessings of Allah, we request the honor of your presence at the Waleema reception of</p>
+    <p class="po-names">
+      <span class="po-name">Luthufi<br>Abdul Latheef</span>
+      <span class="po-and">and</span>
+      <span class="po-name">Lujeen<br>Abdul Jabbar</span>
+    </p>
+    <p class="po-tap-hint">Tap to Open</p>
+  </div>
+  <div class="envelope-dock">
+    <div class="envelope-crop">
+      <div class="envelope-rise">
+        <div class="envelope-zoom">
+          <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Tap the seal to open your invitation">
+            <div class="envelope-flap">
+              <svg class="flap-edge" viewBox="0 0 270 107" preserveAspectRatio="none"><polygon points="0,0 270,0 135,107" fill="none" stroke="#e8cd97" stroke-width="1.6" stroke-linejoin="round" opacity="0.85"/></svg>
+            </div>
+            <div class="envelope-body"></div>
+            <div class="wax-seal"><span>L&amp;L</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<main id="mainContent">
+
+  <section class="hero reveal">
+    <p class="bismillah-ar" dir="rtl" lang="ar">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+    <p class="bismillah-translit">Bismillāhi r-raḥmāni r-raḥīm</p>
+
+    <p class="hosting-names">Abdul Latheef Kunhahammed &amp; Suneera Thayyil</p>
+    <p class="hosting-line">Cordially invite you to the Waleema of their son</p>
+
+    <div class="person-block">
+      <p class="person-name">Luthufi Abdul Latheef</p>
+      <p class="person-lineage">Grand S/o Mr. K. Kunhahammed Master &amp; Mrs. Sainaba Thalakkodan and Mr. Saidalavi Thayyil &amp; Mrs. Nafeesa Edalakkandy</p>
+    </div>
+
+    <div class="divider-with" aria-hidden="true">
+      <span class="line"></span>
+      <span>With</span>
+      <span class="line"></span>
+    </div>
+
+    <div class="person-block">
+      <p class="person-name">Lujeen Abdul Jabbar</p>
+      <p class="person-lineage">D/o Abdul Jabbar Kunnath Kalathingal &amp; Suneera MA</p>
+    </div>
+
+    <button class="scroll-cue" id="scrollCue" type="button" aria-label="Scroll to event details">
+      <svg class="scroll-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      <span>Scroll</span>
+    </button>
+  </section>
+
+  <section class="event-section reveal" id="eventSection">
+    <div class="event-card">
+      <p class="event-label">Waleema</p>
+      <p class="event-date">Sunday, 16 August 2026</p>
+      <p class="event-hijri">Rabiʻ I 4, 1448 AH</p>
+      <p class="event-time">11:00 AM – 2:00 PM</p>
+
+      <div class="countdown-row" id="countdownRow">
+        <div class="countdown-box"><p class="countdown-num" id="cdDays">00</p><p class="countdown-label">Days</p></div>
+        <div class="countdown-box"><p class="countdown-num" id="cdHours">00</p><p class="countdown-label">Hours</p></div>
+        <div class="countdown-box"><p class="countdown-num" id="cdMins">00</p><p class="countdown-label">Mins</p></div>
+        <div class="countdown-box"><p class="countdown-num" id="cdSecs">00</p><p class="countdown-label">Secs</p></div>
+      </div>
+      <p class="countdown-started hidden" id="countdownStarted">With joy, the Waleema has begun</p>
+    </div>
+  </section>
+
+  <section class="venue reveal">
+    <div class="section-divider" aria-hidden="true"><span class="sd-line"></span><span class="sd-diamond"></span><span class="sd-line"></span></div>
+    <p class="section-label">Venue</p>
+    <a class="map-frame" href="https://maps.app.goo.gl/ccmLSELZDHPemnA4A?g_st=ic" target="_blank" rel="noopener" aria-label="Open venue location in Google Maps">
+      <img src="assets/map.webp" alt="Illustrated map to Fora Castle Auditorium, Chemrakkattur" />
+    </a>
+    <p class="venue-name">Fora Castle Auditorium</p>
+    <p class="venue-address">Chemrakkattur - Areecode - Kondotty Rd</p>
+    <div class="venue-buttons">
+      <a class="btn" href="https://maps.app.goo.gl/ccmLSELZDHPemnA4A?g_st=ic" target="_blank" rel="noopener">View on Map</a>
+      <a class="btn btn-filled" href="https://maps.app.goo.gl/ccmLSELZDHPemnA4A?g_st=ic" target="_blank" rel="noopener">Get Directions</a>
+    </div>
+  </section>
+
+  <section class="calendar-cta reveal">
+    <div class="section-divider" aria-hidden="true"><span class="sd-line"></span><span class="sd-diamond"></span><span class="sd-line"></span></div>
+    <p class="section-label">Save the Date</p>
+    <button class="btn btn-filled" id="calendarBtn" type="button">Add to Calendar</button>
+  </section>
+
+  <section class="rsvp reveal" id="rsvpSection">
+    <div class="section-divider" aria-hidden="true"><span class="sd-line"></span><span class="sd-diamond"></span><span class="sd-line"></span></div>
+    <p class="section-label">RSVP</p>
+    <div class="rsvp-box">
+      <div id="rsvpFormWrap">
+        <label class="field-label" for="rsvpName">Your name</label>
+        <input class="rsvp-input" type="text" id="rsvpName" placeholder="e.g. Aisha Rahman" autocomplete="name" />
+
+        <div class="choice-row">
+          <button class="choice-btn" id="acceptBtn" type="button">Joyfully Accept</button>
+          <button class="choice-btn" id="declineBtn" type="button">Regretfully Decline</button>
+        </div>
+
+        <div class="guest-stepper hidden" id="guestStepper">
+          <span class="field-label" style="margin:0;">Guests, including you</span>
+          <div class="stepper-controls">
+            <button class="stepper-btn" id="guestMinus" type="button" aria-label="Decrease guests">−</button>
+            <span class="guest-count-num" id="guestCount">1</span>
+            <button class="stepper-btn" id="guestPlus" type="button" aria-label="Increase guests">+</button>
+          </div>
+        </div>
+
+        <button class="send-btn" id="sendRsvpBtn" type="button" disabled>Send RSVP</button>
+        <p class="rsvp-error hidden" id="rsvpError">Something went wrong sending your RSVP. Please try again.</p>
+      </div>
+      <div class="thank-you hidden" id="rsvpThankYou">
+        <svg class="thank-icon hidden" id="thankIcon" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        <p id="thankMsg"></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="closing reveal">
+    <svg class="cap-sprig"><use href="#sprig"/></svg>
+    <p class="signature">With love, Luthufi and Lujeen</p>
+    <p class="blessing-ar" dir="rtl" lang="ar">بَارَكَ اللّٰهُ لَكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ</p>
+    <p class="blessing-en">"May Allah bless you both and join you together in goodness."</p>
+    <button class="host-link" id="hostDashboardLink" type="button">Host dashboard</button>
+  </footer>
+
+</main>
+
+<!-- HOST DASHBOARD OVERLAY -->
+<div class="dashboard-overlay hidden" id="dashboardOverlay">
+  <div class="dash-panel">
+    <button class="dash-close" id="dashboardClose" aria-label="Close dashboard">&times;</button>
+
+    <div id="passcodeScreen">
+      <p class="section-label" style="text-align:center;">Host Dashboard</p>
+      <label class="field-label" for="passcodeInput">Enter passcode</label>
+      <input class="rsvp-input passcode-box" id="passcodeInput" type="password" inputmode="numeric" maxlength="4" />
+      <button class="send-btn" id="unlockBtn" type="button" style="margin-top:16px;">Unlock</button>
+      <p class="rsvp-error hidden" id="passcodeError">Incorrect passcode, please try again.</p>
+    </div>
+
+    <div id="dashboardScreen" class="hidden">
+      <p class="section-label" style="text-align:center;">Responses</p>
+      <div class="stat-row">
+        <div class="stat-card"><p class="stat-num" id="statAccepted">0</p><p class="stat-label">Accepted</p></div>
+        <div class="stat-card"><p class="stat-num" id="statDeclined">0</p><p class="stat-label">Declined</p></div>
+        <div class="stat-card"><p class="stat-num" id="statGuests">0</p><p class="stat-label">Total Guests</p></div>
+      </div>
+      <div id="responseList"></div>
+      <div class="dash-actions">
+        <button class="btn" id="refreshBtn" type="button">Refresh</button>
+        <button class="btn btn-filled" id="lockBtn" type="button">Lock</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
